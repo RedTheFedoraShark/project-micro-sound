@@ -31,14 +31,14 @@ freq_text = ax.text(0.02, 0.95, "", transform=ax.transAxes)
 ax.set_ylim(Y_MIN, Y_MAX)
 
 # Title and labels 
-fig.title('Signal on STM32 DAC')
-fig.xlabel('Time [s]')
-fig.ylabel('Voltage [V]')
+plt.title('Signal on STM32 DAC')
+plt.xlabel('Time [s]')
+plt.ylabel('Voltage [V]')
 
 # grid
-fig.grid(True, 'major')
-fig.grid(True, 'minor', linewidth=0.3)
-fig.minorticks_on()
+plt.grid(True, 'major')
+plt.grid(True, 'minor', linewidth=0.3)
+plt.minorticks_on()
 
 ###
 # Main loop
